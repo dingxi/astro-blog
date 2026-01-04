@@ -30,6 +30,7 @@ content:
       - name: contact
         label: Contact information
         type: object
+        list: true
         fields:
           - { name: first_name, label: "First name", type: string }
           - { name: last_name,  label: "Last name",  type: string }
